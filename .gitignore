@@ -1,0 +1,18 @@
+# Environnements Virtuels
+venv/
+.venv/
+
+# Fichiers et dossiers Python compilés/caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Base de données et fichiers de données locaux
+db.json
+
+# Rapports ou logs
+*.log
+flake8_rapport/
+
+# Autres fichiers spécifiques à l'IDE/OS
+.DS_Store
