@@ -28,7 +28,7 @@ Prérequis et Installation
   Pour exécuter ce programme, vous devez avoir Python 3.x installé sur votre système (Windows, macOS, ou Linux).
 
   1. Cloner le Dépôt
-  Bash: git clone [URL_DE_VOTRE_DEPOT]
+  Bash: git clone [(https://github.com/micheloulai93-creator/Projet-Python-1)]
         cd tournoi_echecs_suisse
   2. Créer et Activer l'Environnement Virtuel
 
