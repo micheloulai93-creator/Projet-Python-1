@@ -1009,3 +1009,5 @@ class MenuView:
         
         MenuView.print_status("success", "Chargement terminé")
         time.sleep(0.5)
+
+    
