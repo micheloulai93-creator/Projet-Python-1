@@ -666,22 +666,29 @@ class MenuView:
         MenuView.print_divider()
         return MenuView.get_input("Votre choix")
     
-    # Méthodes de compatibilité
+    # ==================== MÉTHODES DE COMPATIBILITÉ CORRIGÉES ====================
+    
     @staticmethod
     def display_success(msg):
-      MenuView.print_status("success", msg)
+        """Affiche un message de succès"""
+        MenuView.print_status("success", msg)
 
     @staticmethod
-    def display_success(msg):
-      MenuView.print_status("error", msg)
+    def display_error(msg):
+        """Affiche un message d'erreur"""
+        MenuView.print_status("error", msg)
 
     @staticmethod
-    def display_success(msg):
-      MenuView.print_status("warning", msg)
+    def display_warning(msg):
+        """Affiche un message d'avertissement"""
+        MenuView.print_status("warning", msg)
 
     @staticmethod
-    def display_success(msg):
-      MenuView.print_status("info", msg)
+    def display_info(msg):
+        """Affiche un message d'information"""
+        MenuView.print_status("info", msg)
+    
+    # ==================== MÉTHODES D'AFFICHAGE ====================
     
     @staticmethod
     def display_players_list(players, title="LISTE DES JOUEURS"):
